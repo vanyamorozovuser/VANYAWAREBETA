@@ -1,0 +1,927 @@
+----------------VANYAWAREGUI(BETA)----------------
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local DropShadowHolder = Instance.new("Frame")
+local DropShadow = Instance.new("ImageLabel")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local Frame_2 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local UIGradient_3 = Instance.new("UIGradient")
+local Frame_3 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local Frame_4 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local Frame_5 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local UIGradient_10 = Instance.new("UIGradient")
+local Frame_6 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local Frame_7 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local Main2 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local DropShadowHolder_2 = Instance.new("Frame")
+local DropShadow_2 = Instance.new("ImageLabel")
+local Frame_8 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_14 = Instance.new("UIGradient")
+local Frame_9 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ImageLabel_8 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local UIGradient_15 = Instance.new("UIGradient")
+local Function = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local ImageLabel_9 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_16 = Instance.new("UIGradient")
+local UIGradient_17 = Instance.new("UIGradient")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local UIGradient_18 = Instance.new("UIGradient")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local UIGradient_19 = Instance.new("UIGradient")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UIGradient_20 = Instance.new("UIGradient")
+local Frame_10 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local ImageLabel_10 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_17 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local TextLabel_20 = Instance.new("TextLabel")
+local UIGradient_21 = Instance.new("UIGradient")
+local Frame_11 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local UIGradient_22 = Instance.new("UIGradient")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local leave = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local UIGradient_23 = Instance.new("UIGradient")
+local UIGradient_24 = Instance.new("UIGradient")
+local UIGradient_25 = Instance.new("UIGradient")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(161, 161, 161)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.0427350439, 0, 0.211993247, 0)
+Main.Size = UDim2.new(0, 794, 0, 412)
+Main.Visible = false
+Main.Selectable = true
+Main.Active = true
+Main.Draggable = true
+
+UICorner.Parent = Main
+
+DropShadowHolder.Name = "DropShadowHolder"
+DropShadowHolder.Parent = Main
+DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderSizePixel = 0
+DropShadowHolder.Size = UDim2.new(1.01007569, 0, 1.04218626, 0)
+DropShadowHolder.ZIndex = 0
+
+DropShadow.Name = "DropShadow"
+DropShadow.Parent = DropShadowHolder
+DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderSizePixel = 0
+DropShadow.Position = UDim2.new(0.49424237, 0, 0.491148502, 0)
+DropShadow.Size = UDim2.new(0.99875313, 47, 0.93968761, 47)
+DropShadow.ZIndex = 0
+DropShadow.Image = "rbxassetid://6014261993"
+DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow.ImageTransparency = 0.500
+DropShadow.ScaleType = Enum.ScaleType.Slice
+DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0187416356, 0, 0.0845298097, 0)
+Frame.Size = UDim2.new(0, 229, 0, 101)
+
+UICorner_2.Parent = Frame
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, -0.00990098994, 0)
+ImageLabel.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel.Image = "rbxassetid://10709806859"
+
+UIAspectRatioConstraint.Parent = ImageLabel
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.218340605, 0, 0.108910888, 0)
+TextLabel.Size = UDim2.new(0, 169, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Скрипт сделан для дропа кеша."
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(97, 97, 97)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.342493385, 0, 0.0850003362, 0)
+Frame_2.Size = UDim2.new(0, 249, 0, 101)
+
+UICorner_3.Parent = Frame_2
+
+ImageLabel_2.Parent = Frame_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0401606411, 0, 0.188118815, 0)
+ImageLabel_2.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_2.Image = "rbxassetid://10734923549"
+
+UIAspectRatioConstraint_2.Parent = ImageLabel_2
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.309236705, 0, 0.257425755, 0)
+TextButton.Size = UDim2.new(0, 147, 0, 36)
+TextButton.Font = Enum.Font.ArialBold
+TextButton.Text = "Inject"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+UICorner_4.Parent = TextButton
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(145, 145, 145))}
+UIGradient_2.Parent = TextButton
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(140, 140, 140)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = Frame_2
+
+Frame_3.Parent = Main
+Frame_3.BackgroundColor3 = Color3.fromRGB(129, 129, 129)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.691056311, 0, 0.089419812, 0)
+Frame_3.Size = UDim2.new(0, 231, 0, 101)
+
+UICorner_5.Parent = Frame_3
+
+ImageLabel_3.Parent = Frame_3
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_3.Image = "rbxassetid://10747374131"
+
+UIAspectRatioConstraint_3.Parent = ImageLabel_3
+
+TextLabel_2.Parent = Frame_3
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.134199128, 0, 0.0792079195, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Привилегия: Premium"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Frame_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.134199128, 0, 0.405940592, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Закончится: Никогда."
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(158, 158, 158)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = Frame_3
+
+Frame_4.Parent = Main
+Frame_4.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0187416356, 0, 0.430382997, 0)
+Frame_4.Size = UDim2.new(0, 770, 0, 82)
+
+UICorner_6.Parent = Frame_4
+
+ImageLabel_4.Parent = Frame_4
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.00779220788, 0, 0.243902445, 0)
+ImageLabel_4.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_4.Image = "rbxassetid://10734965702"
+
+UIAspectRatioConstraint_4.Parent = ImageLabel_4
+
+TextLabel_4.Parent = Frame_4
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.103896104, 0, 0.243902445, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 41)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "Для продавцев."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Parent = TextLabel_4
+
+UICorner_7.Parent = TextLabel_4
+
+TextLabel_5.Parent = Frame_4
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.39870131, 0, 0.243902445, 0)
+TextLabel_5.Size = UDim2.new(0, 200, 0, 41)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "не вредит игрокам."
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Parent = TextLabel_5
+
+UICorner_8.Parent = TextLabel_5
+
+TextLabel_6.Parent = Frame_4
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.705194831, 0, 0.243902445, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 41)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Настройки"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 134, 134)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Parent = TextLabel_6
+
+UICorner_9.Parent = TextLabel_6
+
+TextLabel_7.Parent = Frame_4
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 0.990
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(-0.0740259737, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 257, 0, 20)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "Информация о скрипте"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(66, 66, 66)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_8.Parent = Frame_4
+
+Frame_5.Parent = Main
+Frame_5.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.0187416356, 0, 0.732053578, 0)
+Frame_5.Size = UDim2.new(0, 238, 0, 101)
+
+UICorner_10.Parent = Frame_5
+
+ImageLabel_5.Parent = Frame_5
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0, 0, 0.247524753, 0)
+ImageLabel_5.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_5.Image = "rbxassetid://10747384394"
+
+UIAspectRatioConstraint_5.Parent = ImageLabel_5
+
+TextButton_2.Parent = Frame_5
+TextButton_2.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.252100855, 0, 0.297029704, 0)
+TextButton_2.Size = UDim2.new(0, 149, 0, 41)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Leave"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Click:Connect(function() 
+    game:shutdown() 
+    end)
+
+UICorner_11.Parent = TextButton_2
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(50, 50, 50)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Parent = TextButton_2
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 84, 84)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_10.Parent = Frame_5
+
+Frame_6.Parent = Main
+Frame_6.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0.509159863, 0, 0.691685081, 0)
+Frame_6.Size = UDim2.new(0, 380, 0, 118)
+
+UICorner_12.Parent = Frame_6
+
+ImageLabel_6.Parent = Frame_6
+ImageLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_6.BackgroundTransparency = 1.000
+ImageLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_6.BorderSizePixel = 0
+ImageLabel_6.Position = UDim2.new(0.046759516, 0, 0.420688421, 0)
+ImageLabel_6.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_6.Image = "rbxassetid://10723415903"
+
+UIAspectRatioConstraint_6.Parent = ImageLabel_6
+
+TextLabel_8.Parent = Frame_6
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.018421052, 0, -0.00336391642, 0)
+TextLabel_8.Size = UDim2.new(0, 87, 0, 50)
+TextLabel_8.Font = Enum.Font.SourceSansBold
+TextLabel_8.Text = "Информация"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = Frame_6
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.249357328, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0, 136, 0, 127)
+TextLabel_9.Font = Enum.Font.SourceSansBold
+TextLabel_9.Text = "│"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 100.000
+TextLabel_9.TextWrapped = true
+
+TextLabel_10.Parent = Frame_6
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.434143066, 0, -0.00336391642, 0)
+TextLabel_10.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_10.Font = Enum.Font.SourceSansBold
+TextLabel_10.Text = "Версия 1.0 BETA"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = Frame_6
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.457826942, 0, 0.281601727, 0)
+TextLabel_11.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = "ADMIN: WHATOHELLL"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+
+TextLabel_12.Parent = Frame_6
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.434142739, 0, 0.511514962, 0)
+TextLabel_12.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_12.Font = Enum.Font.SourceSansBold
+TextLabel_12.Text = "SELLERS: DRK,  guildyv"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextSize = 14.000
+
+UIGradient_11.Parent = Frame_6
+
+Frame_7.Parent = Main
+Frame_7.BackgroundColor3 = Color3.fromRGB(115, 115, 115)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(-3.84352354e-08, 0, -0.00903305411, 0)
+Frame_7.Size = UDim2.new(0, 794, 0, 31)
+
+UICorner_13.Parent = Frame_7
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_12.Parent = Frame_7
+
+TextButton_3.Parent = Main
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(1, 0, -0.00970873795, 0)
+TextButton_3.Size = UDim2.new(0, -61, 0, 31)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Click:Connect(function()
+	TextButton_3.Parent.Visible = false
+end)
+
+UICorner_14.Parent = TextButton_3
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(83, 83, 83)), ColorSequenceKeypoint.new(0.63, Color3.fromRGB(146, 146, 146)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.86, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.97, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.98, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_13.Parent = Main
+
+Main2.Name = "Main2"
+Main2.Parent = ScreenGui
+Main2.BackgroundColor3 = Color3.fromRGB(161, 161, 161)
+Main2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main2.BorderSizePixel = 0
+Main2.Position = UDim2.new(0.46405229, 0, 0.208614871, 0)
+Main2.Size = UDim2.new(0, 794, 0, 416)
+Main2.Visible = false
+Main2.Selectable = true
+Main2.Active = true
+Main2.Draggable = true
+
+UICorner_15.Parent = Main2
+
+DropShadowHolder_2.Name = "DropShadowHolder"
+DropShadowHolder_2.Parent = Main2
+DropShadowHolder_2.BackgroundTransparency = 1.000
+DropShadowHolder_2.BorderSizePixel = 0
+DropShadowHolder_2.Size = UDim2.new(1, 0, 1.07579458, 0)
+DropShadowHolder_2.ZIndex = 0
+
+DropShadow_2.Name = "DropShadow"
+DropShadow_2.Parent = DropShadowHolder_2
+DropShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+DropShadow_2.BackgroundTransparency = 1.000
+DropShadow_2.BorderSizePixel = 0
+DropShadow_2.Position = UDim2.new(0.502422512, 0, 0.476257175, 0)
+DropShadow_2.Size = UDim2.new(1.00503767, 47, 0.935043931, 47)
+DropShadow_2.ZIndex = 0
+DropShadow_2.Image = "rbxassetid://6014261993"
+DropShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+DropShadow_2.ImageTransparency = 0.500
+DropShadow_2.ScaleType = Enum.ScaleType.Slice
+DropShadow_2.SliceCenter = Rect.new(49, 49, 450, 450)
+
+Frame_8.Parent = Main2
+Frame_8.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.353754222, 0, 0.135874555, 0)
+Frame_8.Size = UDim2.new(0, 229, 0, 101)
+
+UICorner_16.Parent = Frame_8
+
+TextLabel_13.Parent = Frame_8
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.235807866, 0, 0.247524753, 0)
+TextLabel_13.Size = UDim2.new(0, 169, 0, 50)
+TextLabel_13.Font = Enum.Font.SourceSansBold
+TextLabel_13.Text = "Вы заинжектели основное меню для работы"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+
+ImageLabel_7.Parent = Frame_8
+ImageLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_7.BackgroundTransparency = 1.000
+ImageLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_7.BorderSizePixel = 0
+ImageLabel_7.Position = UDim2.new(0, 0, 0.178217828, 0)
+ImageLabel_7.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_7.Image = "rbxassetid://10747383470"
+
+UIAspectRatioConstraint_7.Parent = ImageLabel_7
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(141, 141, 141)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(197, 197, 197)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_14.Parent = Frame_8
+
+Frame_9.Name = "Лицензия"
+Frame_9.Parent = Main2
+Frame_9.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+Frame_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0.693575203, 0, 0.740673721, 0)
+Frame_9.Size = UDim2.new(0, 238, 0, 104)
+
+UICorner_17.Parent = Frame_9
+
+ImageLabel_8.Parent = Frame_9
+ImageLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_8.BackgroundTransparency = 1.000
+ImageLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_8.BorderSizePixel = 0
+ImageLabel_8.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_8.Image = "rbxassetid://10747374131"
+
+UIAspectRatioConstraint_8.Parent = ImageLabel_8
+
+TextLabel_14.Parent = Frame_9
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.134199128, 0, 0.0792079195, 0)
+TextLabel_14.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_14.Font = Enum.Font.SourceSansBold
+TextLabel_14.Text = "Привилегия: Premium"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 14.000
+
+TextLabel_15.Parent = Frame_9
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.155844152, 0, 0.396039605, 0)
+TextLabel_15.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_15.Font = Enum.Font.SourceSansBold
+TextLabel_15.Text = "Закончится: Никогда."
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextSize = 14.000
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(44, 44, 44)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_15.Parent = Frame_9
+
+Function.Name = "Function"
+Function.Parent = Main2
+Function.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+Function.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Function.BorderSizePixel = 0
+Function.Position = UDim2.new(0.0137038529, 0, 0.430382997, 0)
+Function.Size = UDim2.new(0, 770, 0, 82)
+
+UICorner_18.Parent = Function
+
+TextLabel_16.Parent = Function
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(19, 22, 67)
+TextLabel_16.BackgroundTransparency = 0.990
+TextLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(-0.11948052, 0, 0, 0)
+TextLabel_16.Size = UDim2.new(0, 257, 0, 20)
+TextLabel_16.Font = Enum.Font.SourceSansBold
+TextLabel_16.Text = "скрипты"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+
+ImageLabel_9.Parent = Function
+ImageLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_9.BackgroundTransparency = 1.000
+ImageLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_9.BorderSizePixel = 0
+ImageLabel_9.Position = UDim2.new(0.0103896102, 0, 0.243902445, 0)
+ImageLabel_9.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_9.Image = "rbxassetid://10723433811"
+
+UIAspectRatioConstraint_9.Parent = ImageLabel_9
+
+TextButton_4.Parent = Function
+TextButton_4.BackgroundColor3 = Color3.fromRGB(199, 199, 199)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.102701716, 0, 0.274813026, 0)
+TextButton_4.Size = UDim2.new(0, 147, 0, 36)
+TextButton_4.Font = Enum.Font.ArialBold
+TextButton_4.Text = "Swagmode"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+UICorner_19.Parent = TextButton_4
+
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 73, 73)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(145, 145, 145))}
+UIGradient_16.Parent = TextButton_4
+
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 73, 73)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_17.Parent = Function
+
+TextButton_5.Parent = Function
+TextButton_5.BackgroundColor3 = Color3.fromRGB(199, 199, 199)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.33387056, 0, 0.274813026, 0)
+TextButton_5.Size = UDim2.new(0, 147, 0, 36)
+TextButton_5.Font = Enum.Font.ArialBold
+TextButton_5.Text = "Aspect ratio"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vanyamorozovuser/ratio/main/aspectratio"))()
+end)
+
+UICorner_20.Parent = TextButton_5
+
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 73, 73)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(145, 145, 145))}
+UIGradient_18.Parent = TextButton_5
+
+TextButton_6.Parent = Function
+TextButton_6.BackgroundColor3 = Color3.fromRGB(199, 199, 199)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.568935454, 0, 0.274813026, 0)
+TextButton_6.Size = UDim2.new(0, 147, 0, 36)
+TextButton_6.Font = Enum.Font.ArialBold
+TextButton_6.Text = "Lock"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vanyamorozovuser/lockboxdot/main/boxlock"))()
+end)
+
+UICorner_21.Parent = TextButton_6
+
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 73, 73)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(145, 145, 145))}
+UIGradient_19.Parent = TextButton_6
+
+TextButton_7.Parent = Function
+TextButton_7.BackgroundColor3 = Color3.fromRGB(199, 199, 199)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.796208203, 0, 0.274813026, 0)
+TextButton_7.Size = UDim2.new(0, 147, 0, 36)
+TextButton_7.Font = Enum.Font.ArialBold
+TextButton_7.Text = "Aimviewer"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Aim%20Viewer"))()
+end)
+
+UICorner_22.Parent = TextButton_7
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(75, 73, 73)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(145, 145, 145))}
+UIGradient_20.Parent = TextButton_7
+
+Frame_10.Parent = Main2
+Frame_10.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+Frame_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.390771985, 0, 0.740673721, 0)
+Frame_10.Size = UDim2.new(0, 179, 0, 104)
+
+UICorner_23.Parent = Frame_10
+
+ImageLabel_10.Parent = Frame_10
+ImageLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_10.BackgroundTransparency = 1.000
+ImageLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_10.BorderSizePixel = 0
+ImageLabel_10.Position = UDim2.new(0.0337459631, 0, 0.324534476, 0)
+ImageLabel_10.Size = UDim2.new(0, 29, 0, 35)
+ImageLabel_10.Image = "rbxassetid://10723415903"
+
+UIAspectRatioConstraint_10.Parent = ImageLabel_10
+
+TextLabel_17.Parent = Frame_10
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(-0.010783135, 0, -0.108100303, 0)
+TextLabel_17.Size = UDim2.new(0, 87, 0, 50)
+TextLabel_17.Font = Enum.Font.SourceSansBold
+TextLabel_17.Text = "Информация"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+
+TextLabel_18.Parent = Frame_10
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(-0.117537342, 0, 0.206203759, 0)
+TextLabel_18.Size = UDim2.new(0, 124, 0, 90)
+TextLabel_18.Font = Enum.Font.SourceSansBold
+TextLabel_18.Text = "│"
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 100.000
+TextLabel_18.TextWrapped = true
+
+TextLabel_19.Parent = Frame_10
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.0332331322, 0, 0.573559105, 0)
+TextLabel_19.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_19.Font = Enum.Font.SourceSansBold
+TextLabel_19.Text = "Версия 1.0 BETA"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+
+TextLabel_20.Parent = Frame_10
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.609178782, 0, 0.31008324, 0)
+TextLabel_20.Size = UDim2.new(0, 10, 0, 28)
+TextLabel_20.Font = Enum.Font.SourceSansBold
+TextLabel_20.Text = "ADMIN: WHATOHELLL"
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.TextSize = 14.000
+
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(44, 44, 44)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_21.Parent = Frame_10
+
+Frame_11.Parent = Main2
+Frame_11.BackgroundColor3 = Color3.fromRGB(115, 115, 115)
+Frame_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_11.BorderSizePixel = 0
+Frame_11.Size = UDim2.new(0, 795, 0, 28)
+
+UICorner_24.Parent = Frame_11
+
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_22.Parent = Frame_11
+
+TextButton_8.Parent = Main2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.BorderSizePixel = 0
+TextButton_8.Position = UDim2.new(1, 0, 0, 0)
+TextButton_8.Size = UDim2.new(0, -55, 0, 28)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "X"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+TextButton_8.MouseButton1Click:Connect(function()
+	TextButton_8.Parent.Visible = false
+end)
+
+UICorner_25.Parent = TextButton_8
+
+leave.Name = "leave"
+leave.Parent = Main2
+leave.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+leave.BorderColor3 = Color3.fromRGB(0, 0, 0)
+leave.BorderSizePixel = 0
+leave.Position = UDim2.new(0.0187416356, 0, 0.726003766, 0)
+leave.Size = UDim2.new(0, 238, 0, 104)
+
+UICorner_26.Parent = leave
+
+ImageLabel_11.Parent = leave
+ImageLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_11.BackgroundTransparency = 1.000
+ImageLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_11.BorderSizePixel = 0
+ImageLabel_11.Position = UDim2.new(0, 0, 0.247524753, 0)
+ImageLabel_11.Size = UDim2.new(0, 50, 0, 50)
+ImageLabel_11.Image = "rbxassetid://10747384394"
+
+UIAspectRatioConstraint_11.Parent = ImageLabel_11
+
+TextButton_9.Parent = leave
+TextButton_9.BackgroundColor3 = Color3.fromRGB(185, 185, 185)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.BorderSizePixel = 0
+TextButton_9.Position = UDim2.new(0.243697479, 0, 0.334063023, 0)
+TextButton_9.Size = UDim2.new(0, 149, 0, 41)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Leave"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+TextButton_9.MouseButton1Click:Connect(function() 
+    game:shutdown() 
+    end)
+
+UICorner_27.Parent = TextButton_9
+
+UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(103, 101, 101)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_23.Parent = TextButton_9
+
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(44, 44, 44)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_24.Parent = leave
+
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(107, 107, 107)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(83, 83, 83)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(143, 143, 143)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(214, 214, 214)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_25.Parent = Main2
+
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key) 
+	if key == "l" then
+		if Main.Visible == false then
+			Main.Visible = true
+		else
+			Main.Visible = false
+		end
+	end
+end)
+
+TextButton.MouseButton1Click:Connect(function()
+	if Main2.Visible == false then
+		Main2.Visible = true
+	else
+		Main2.Visible = false
+	end
+end)
